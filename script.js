@@ -6,7 +6,7 @@
 $(function () {
 
 
-var saveLocal = $('.saveBtn');
+var saveButtonEl = $('#saveBtn');
 var timeBlock = $('.time-block');
 // console.log used to check status of my created variable
 // console.log(timeBlock);
@@ -62,7 +62,11 @@ $('#currentDay').text(today.format('MMM D, YYYY'));
 
   // Local Storage Deletion Functionality
 
+
   // Event Listener
+  saveButtonEl.on('click'), function () {
+        console.log("I am clicked!")
+  }
   /* saveLocal.addEventListener("click", function () {
     fix documentation to jquery .on(click())
     event.target
