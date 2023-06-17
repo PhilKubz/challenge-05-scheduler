@@ -34,4 +34,4 @@ This project is deployed and live!
 Please click the link below to access the site in a browser:
 
 
-[Challenge-05 Live Demo]()
+[Challenge-05 Live Demo](https://philkubz.github.io/challenge-05-scheduler/)
